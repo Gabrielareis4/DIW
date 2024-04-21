@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: .1rem #0d0d0d solid;
+  }
+  h1{
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;  
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-right: 50px;
+    border: .2rem #0d0d0d solid;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+  }
+  
+  .contact-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .tags {
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  
+  .links a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 400px;
+    border-radius: 1px;
+    padding: 8px;
+    border: .1rem #686464 solid;
+  }
+  
+  .colegas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+  }
+  
+  .cartao {
+    width: 45rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: 3rem auto;
+    border-radius: .7rem;
+    border: .1rem #0d0d0d solid;
+    text-align: center;
+  }
+  .imagem{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-right: 50px;
+    border: .2rem #0d0d0d solid;
+  }
+  
+  .cartao-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
